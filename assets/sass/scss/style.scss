@@ -1,0 +1,23 @@
+$color-fondo: rgba(141, 187, 206, 0.39);
+$font: Helvetica, sans-serif;
+
+
+.padre{
+    background-color: $color-fondo;
+    font-family: $font;
+}
+
+.hijo{
+    @extend .padre;
+}
+
+/*Bootstrap!!!!!!!!!!!!!!!!!!!*/
+@import "bootstrap.scss";
+
+
+
+
+
+
+
+
